@@ -2,10 +2,10 @@
 `include "../../src/verilog/half_adder.v"
 module half_adder_tb;
 
-reg a_tb;
-reg b_tb;
-wire s_tb;
-wire c_tb;
+logic a_tb;
+logic b_tb;
+logic s_tb;
+logic c_tb;
 
 half_adder hf0(
     .a(a_tb),

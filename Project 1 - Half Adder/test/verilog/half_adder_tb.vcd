@@ -1,0 +1,60 @@
+$date
+	Fri Jan 12 23:25:09 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module half_adder_tb $end
+$var wire 1 ! s_tb $end
+$var wire 1 " c_tb $end
+$var reg 1 # a_tb $end
+$var reg 1 $ b_tb $end
+$scope module hf0 $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 ! s $end
+$var wire 1 " c $end
+$upscope $end
+$scope task verify $end
+$var reg 1 % a_task $end
+$var reg 1 & b_task $end
+$var reg 1 ' c_task $end
+$var reg 1 ( s_task $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#1
+1!
+1#
+1(
+1%
+#2
+1$
+0#
+1&
+0%
+#3
+0!
+1"
+1#
+1'
+0(
+1%
+#4

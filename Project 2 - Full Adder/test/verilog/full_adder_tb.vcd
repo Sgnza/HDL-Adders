@@ -1,0 +1,119 @@
+$date
+	Sat Jan 13 10:46:46 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module full_adder_tb $end
+$var wire 1 ! sum_tb $end
+$var wire 1 " cout_tb $end
+$var reg 1 # a_tb $end
+$var reg 1 $ b_tb $end
+$var reg 1 % cin_tb $end
+$scope module fa0 $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % cin $end
+$var wire 1 " cout $end
+$var wire 1 ! sum $end
+$var wire 1 & ha1_cout $end
+$var wire 1 ' ha0_sum $end
+$var wire 1 ( ha0_cout $end
+$scope module ha0 $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 ' sum $end
+$var wire 1 ( cout $end
+$upscope $end
+$scope module hf1 $end
+$var wire 1 % a $end
+$var wire 1 ' b $end
+$var wire 1 ! sum $end
+$var wire 1 & cout $end
+$upscope $end
+$upscope $end
+$scope task verify $end
+$var reg 1 ) a_task $end
+$var reg 1 * b_task $end
+$var reg 1 + cin_task $end
+$var reg 1 , cout_task $end
+$var reg 1 - sum_task $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#1
+1!
+1%
+1-
+1+
+#2
+1'
+0%
+1$
+0+
+1*
+#3
+0!
+1"
+1&
+1%
+1,
+0-
+1+
+#4
+1!
+0"
+0&
+0%
+0$
+0(
+1#
+0,
+1-
+0+
+0*
+1)
+#5
+0!
+1"
+1&
+1%
+1,
+0-
+1+
+#6
+0'
+0&
+0%
+1(
+1$
+0+
+1*
+#7
+1!
+1%
+1-
+1+
+#8

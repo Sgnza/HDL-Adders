@@ -1,2 +1,0 @@
-module carry_save_adder_4_tb;
-endmodule

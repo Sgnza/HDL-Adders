@@ -1,4 +1,3 @@
-`include "../../../Project 1 - Half Adder/src/verilog/half_adder.v"
 module full_adder(
     input wire a,
     input wire b,

@@ -1,4 +1,3 @@
-`include "../../../Project 2 - Full Adder/src/verilog/full_adder.v"
 module carry_save_logic_4(
     input wire [3:0] a,
     input wire [3:0] b,

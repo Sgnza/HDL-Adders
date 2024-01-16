@@ -16,11 +16,17 @@ En este repositorio se encuentra una implementación en verilog de
   - [GTKWave](#gtkwave)
   - [IIC-OSIC-TOOLS](#iic-osic-tools)
 - [Proyectos](#proyectos)
+  - [Proyecto 0 - Plus Adder](#proyecto-0---plus-adder)
   - [Proyecto 1 - Half Adder](#proyecto-1---half-adder)
   - [Proyecto 2 - Full Adder](#proyecto-2---full-adder)
   - [Proyecto 3 - Ripple Carry Adder](#proyecto-3---ripple-carry-adder)
   - [Proyecto 4 - Carry Lookahead Adder](#proyecto-4---carry-lookahead-adder)
   - [Proyecto 5 - Carry Save Adder](#proyecto-5---carry-save-adder)
+  - [Proyecto 6 - Carry Select Adder](#proyecto-6---carry-select-adder)
+  - [Proyecto 7 - Carry Skip Adder](#proyecto-7---carry-skip-adder)
+  - [Proyecto 8 - Brent-Kung Adder](#proyecto-8---brent-kung-adder)
+  - [Proyecto 9 - Kogge-Stone Adder](#proyecto-9---kogge-stone-adder)
+  - [Proyecto 10 - Ling Adder](#proyecto-10---ling-adder)
 - [Contacto](#contacto)
 - [Licencia](#licencia)
 - [Bibliografía](#bibliografía)
@@ -47,6 +53,9 @@ Se puede encontrar en el siguiente repositorio: https://github.com/iic-jku/IIC-O
 # Proyectos
 <sup>[(volver al principio)](#tabla-de-contenidos)</sup>  
 
+## Proyecto 0 - Plus Adder
+<sup>[(volver al principio)](#tabla-de-contenidos)</sup>
+
 ## Proyecto 1 - Half Adder
 <sup>[(volver al principio)](#tabla-de-contenidos)</sup>
 
@@ -60,6 +69,21 @@ Se puede encontrar en el siguiente repositorio: https://github.com/iic-jku/IIC-O
 <sup>[(volver al principio)](#tabla-de-contenidos)</sup>
 
 ## Proyecto 5 - Carry Save Adder
+<sup>[(volver al principio)](#tabla-de-contenidos)</sup> 
+
+## Proyecto 6 - Carry Select Adder
+<sup>[(volver al principio)](#tabla-de-contenidos)</sup>
+
+## Proyecto 7 - Carry Skip Adder
+<sup>[(volver al principio)](#tabla-de-contenidos)</sup> 
+
+## Proyecto 8 - Brent-Kung Adder
+<sup>[(volver al principio)](#tabla-de-contenidos)</sup> 
+
+## Proyecto 9 - Kogge-Stone Adder
+<sup>[(volver al principio)](#tabla-de-contenidos)</sup> 
+
+## Proyecto 10 - Ling Adder
 <sup>[(volver al principio)](#tabla-de-contenidos)</sup> 
 
 # Contacto 

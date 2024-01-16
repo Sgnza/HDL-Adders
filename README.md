@@ -27,6 +27,7 @@ En este repositorio se encuentra una implementación en verilog de
   - [Proyecto 8 - Brent-Kung Adder](#proyecto-8---brent-kung-adder)
   - [Proyecto 9 - Kogge-Stone Adder](#proyecto-9---kogge-stone-adder)
   - [Proyecto 10 - Ling Adder](#proyecto-10---ling-adder)
+  - [Utils](#utils)
 - [Contacto](#contacto)
 - [Licencia](#licencia)
 - [Bibliografía](#bibliografía)
@@ -84,6 +85,9 @@ Se puede encontrar en el siguiente repositorio: https://github.com/iic-jku/IIC-O
 <sup>[(volver al principio)](#tabla-de-contenidos)</sup> 
 
 ## Proyecto 10 - Ling Adder
+<sup>[(volver al principio)](#tabla-de-contenidos)</sup> 
+
+## Utils
 <sup>[(volver al principio)](#tabla-de-contenidos)</sup> 
 
 # Contacto 

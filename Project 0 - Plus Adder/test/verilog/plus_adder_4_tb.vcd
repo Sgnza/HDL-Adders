@@ -1,0 +1,53 @@
+$date
+	Tue Jan 16 15:15:54 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module plus_adder_4_tb $end
+$var wire 4 ! sum_tb [3:0] $end
+$var wire 1 " cout_tb $end
+$var reg 4 # a_tb [3:0] $end
+$var reg 4 $ b_tb [3:0] $end
+$var reg 1 % cin_tb $end
+$scope module pa0 $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 1 % cin $end
+$var wire 5 ( tmp [4:0] $end
+$var wire 4 ) sum [3:0] $end
+$var wire 1 " cout $end
+$upscope $end
+$scope task verify $end
+$var reg 4 * a_task [3:0] $end
+$var reg 4 + b_task [3:0] $end
+$var reg 1 , cin_task $end
+$var reg 1 - cout_task $end
+$var reg 4 . sum_task [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 .
+1-
+0,
+b1 +
+b1111 *
+b0 )
+b10000 (
+b1 '
+b1111 &
+0%
+b1 $
+b1111 #
+1"
+b0 !
+$end
+#1

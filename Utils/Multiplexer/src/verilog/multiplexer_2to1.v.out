@@ -1,0 +1,25 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000024fba072620 .scope module, "multiplexer_2to1" "multiplexer_2to1" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 2 "channels";
+    .port_info 1 /INPUT 1 "select";
+    .port_info 2 /OUTPUT 1 "channel_out";
+o0000024fba0a63c8 .functor BUFZ 1, C4<z>; HiZ drive
+v0000024fba072ee0_0 .net "channel_out", 0 0, o0000024fba0a63c8;  0 drivers
+o0000024fba0a63f8 .functor BUFZ 2, C4<zz>; HiZ drive
+v0000024fba0727b0_0 .net "channels", 1 0, o0000024fba0a63f8;  0 drivers
+o0000024fba0a6428 .functor BUFZ 1, C4<z>; HiZ drive
+v0000024fba072850_0 .net "select", 0 0, o0000024fba0a6428;  0 drivers
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "multiplexer_2to1.v";

@@ -28,6 +28,11 @@ En este repositorio se encuentra una implementación en verilog de
   - [Proyecto 9 - Kogge-Stone Adder](#proyecto-9---kogge-stone-adder)
   - [Proyecto 10 - Ling Adder](#proyecto-10---ling-adder)
   - [Utils](#utils)
+    - [Multiplexer](#multiplexer)
+    - [Demultiplexer](#demultiplexer)
+    - [Encoder](#encoder)
+    - [Priority encoder](#priority-encoder)
+    - [Decoder](#decoder)
 - [Contacto](#contacto)
 - [Licencia](#licencia)
 - [Bibliografía](#bibliografía)
@@ -89,6 +94,16 @@ Se puede encontrar en el siguiente repositorio: https://github.com/iic-jku/IIC-O
 
 ## Utils
 <sup>[(volver al principio)](#tabla-de-contenidos)</sup> 
+
+### Multiplexer
+
+### Demultiplexer
+
+### Encoder
+
+### Priority encoder
+
+### Decoder
 
 # Contacto 
 <sup>[(volver al principio)](#tabla-de-contenidos)</sup>  

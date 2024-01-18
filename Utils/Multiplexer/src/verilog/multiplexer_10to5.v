@@ -1,17 +1,14 @@
 module multiplexer_10to5(
     input wire select,
-    input wire cin0,
-    input wire [3:0] sum0,
-    input wire cin1,
-    input wire [3:0] sum1,
-    output wire cout,
-    output wire [3:0] sum
+    input wire [4:0] in0,
+    input wire [4:0] in1,
+    output wire [4:0] channel_out
 );
 
-multiplexer_2to1 m0(.in0(sum0[0]), in1(sum1[0]), .select(select), .channel_out(sum[0]));
-multiplexer_2to1 m1(.in0(sum0[1]), in1(sum1[1]), .select(select), .channel_out(sum[1]));
-multiplexer_2to1 m2(.in0(sum0[2]), in1(sum1[2]), .select(select), .channel_out(sum[2]));
-multiplexer_2to1 m3(.in0(sum0[3]), in1(sum1[3]), .select(select), .channel_out(sum[3]));
-multiplexer_2to1 m4(.in0(cin0), in1(cin1), .select(select), .channel_out(cout));
+multiplexer_2to1 m0(.in0(in0[0]), .in1(in1[0]), .select(select), .channel_out(channel_out[0]));
+multiplexer_2to1 m1(.in0(in0[1]), .in1(in1[1]), .select(select), .channel_out(channel_out[1]));
+multiplexer_2to1 m2(.in0(in0[2]), .in1(in1[2]), .select(select), .channel_out(channel_out[2]));
+multiplexer_2to1 m3(.in0(in0[3]), .in1(in1[3]), .select(select), .channel_out(channel_out[3]));
+multiplexer_2to1 m4(.in0(in0[4]), .in1(in1[4]), .select(select), .channel_out(channel_out[4]));
 
 endmodule

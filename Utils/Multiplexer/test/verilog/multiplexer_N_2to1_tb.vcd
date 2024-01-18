@@ -1,0 +1,498 @@
+$date
+	Thu Jan 18 16:56:24 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module multiplexer_N_2to1_tb $end
+$var wire 10 ! channel_out_tb [9:0] $end
+$var parameter 32 " N $end
+$var reg 10 # in0_tb [9:0] $end
+$var reg 10 $ in1_tb [9:0] $end
+$var reg 1 % select_tb $end
+$scope module m0 $end
+$var wire 10 & in0 [9:0] $end
+$var wire 10 ' in1 [9:0] $end
+$var wire 1 % select $end
+$var wire 10 ( channel_out [9:0] $end
+$var parameter 32 ) N $end
+$scope begin genblk1[0] $end
+$var parameter 2 * i $end
+$scope module m0 $end
+$var wire 1 + channel_out $end
+$var wire 1 , in0 $end
+$var wire 1 - in1 $end
+$var wire 1 % select $end
+$var wire 1 . og0_result $end
+$var wire 1 / ng0_result $end
+$var wire 1 0 ag1_result $end
+$var wire 1 1 ag0_result $end
+$scope module ag0 $end
+$var wire 1 , a $end
+$var wire 1 1 result $end
+$var wire 1 / b $end
+$upscope $end
+$scope module ag1 $end
+$var wire 1 - a $end
+$var wire 1 % b $end
+$var wire 1 0 result $end
+$upscope $end
+$scope module ng0 $end
+$var wire 1 % a $end
+$var wire 1 / result $end
+$upscope $end
+$scope module og0 $end
+$var wire 1 1 a $end
+$var wire 1 0 b $end
+$var wire 1 . result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 2 i $end
+$scope module m0 $end
+$var wire 1 3 channel_out $end
+$var wire 1 4 in0 $end
+$var wire 1 5 in1 $end
+$var wire 1 % select $end
+$var wire 1 6 og0_result $end
+$var wire 1 7 ng0_result $end
+$var wire 1 8 ag1_result $end
+$var wire 1 9 ag0_result $end
+$scope module ag0 $end
+$var wire 1 4 a $end
+$var wire 1 9 result $end
+$var wire 1 7 b $end
+$upscope $end
+$scope module ag1 $end
+$var wire 1 5 a $end
+$var wire 1 % b $end
+$var wire 1 8 result $end
+$upscope $end
+$scope module ng0 $end
+$var wire 1 % a $end
+$var wire 1 7 result $end
+$upscope $end
+$scope module og0 $end
+$var wire 1 9 a $end
+$var wire 1 8 b $end
+$var wire 1 6 result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 : i $end
+$scope module m0 $end
+$var wire 1 ; channel_out $end
+$var wire 1 < in0 $end
+$var wire 1 = in1 $end
+$var wire 1 % select $end
+$var wire 1 > og0_result $end
+$var wire 1 ? ng0_result $end
+$var wire 1 @ ag1_result $end
+$var wire 1 A ag0_result $end
+$scope module ag0 $end
+$var wire 1 < a $end
+$var wire 1 A result $end
+$var wire 1 ? b $end
+$upscope $end
+$scope module ag1 $end
+$var wire 1 = a $end
+$var wire 1 % b $end
+$var wire 1 @ result $end
+$upscope $end
+$scope module ng0 $end
+$var wire 1 % a $end
+$var wire 1 ? result $end
+$upscope $end
+$scope module og0 $end
+$var wire 1 A a $end
+$var wire 1 @ b $end
+$var wire 1 > result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 B i $end
+$scope module m0 $end
+$var wire 1 C channel_out $end
+$var wire 1 D in0 $end
+$var wire 1 E in1 $end
+$var wire 1 % select $end
+$var wire 1 F og0_result $end
+$var wire 1 G ng0_result $end
+$var wire 1 H ag1_result $end
+$var wire 1 I ag0_result $end
+$scope module ag0 $end
+$var wire 1 D a $end
+$var wire 1 I result $end
+$var wire 1 G b $end
+$upscope $end
+$scope module ag1 $end
+$var wire 1 E a $end
+$var wire 1 % b $end
+$var wire 1 H result $end
+$upscope $end
+$scope module ng0 $end
+$var wire 1 % a $end
+$var wire 1 G result $end
+$upscope $end
+$scope module og0 $end
+$var wire 1 I a $end
+$var wire 1 H b $end
+$var wire 1 F result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 J i $end
+$scope module m0 $end
+$var wire 1 K channel_out $end
+$var wire 1 L in0 $end
+$var wire 1 M in1 $end
+$var wire 1 % select $end
+$var wire 1 N og0_result $end
+$var wire 1 O ng0_result $end
+$var wire 1 P ag1_result $end
+$var wire 1 Q ag0_result $end
+$scope module ag0 $end
+$var wire 1 L a $end
+$var wire 1 Q result $end
+$var wire 1 O b $end
+$upscope $end
+$scope module ag1 $end
+$var wire 1 M a $end
+$var wire 1 % b $end
+$var wire 1 P result $end
+$upscope $end
+$scope module ng0 $end
+$var wire 1 % a $end
+$var wire 1 O result $end
+$upscope $end
+$scope module og0 $end
+$var wire 1 Q a $end
+$var wire 1 P b $end
+$var wire 1 N result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 R i $end
+$scope module m0 $end
+$var wire 1 S channel_out $end
+$var wire 1 T in0 $end
+$var wire 1 U in1 $end
+$var wire 1 % select $end
+$var wire 1 V og0_result $end
+$var wire 1 W ng0_result $end
+$var wire 1 X ag1_result $end
+$var wire 1 Y ag0_result $end
+$scope module ag0 $end
+$var wire 1 T a $end
+$var wire 1 Y result $end
+$var wire 1 W b $end
+$upscope $end
+$scope module ag1 $end
+$var wire 1 U a $end
+$var wire 1 % b $end
+$var wire 1 X result $end
+$upscope $end
+$scope module ng0 $end
+$var wire 1 % a $end
+$var wire 1 W result $end
+$upscope $end
+$scope module og0 $end
+$var wire 1 Y a $end
+$var wire 1 X b $end
+$var wire 1 V result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 Z i $end
+$scope module m0 $end
+$var wire 1 [ channel_out $end
+$var wire 1 \ in0 $end
+$var wire 1 ] in1 $end
+$var wire 1 % select $end
+$var wire 1 ^ og0_result $end
+$var wire 1 _ ng0_result $end
+$var wire 1 ` ag1_result $end
+$var wire 1 a ag0_result $end
+$scope module ag0 $end
+$var wire 1 \ a $end
+$var wire 1 a result $end
+$var wire 1 _ b $end
+$upscope $end
+$scope module ag1 $end
+$var wire 1 ] a $end
+$var wire 1 % b $end
+$var wire 1 ` result $end
+$upscope $end
+$scope module ng0 $end
+$var wire 1 % a $end
+$var wire 1 _ result $end
+$upscope $end
+$scope module og0 $end
+$var wire 1 a a $end
+$var wire 1 ` b $end
+$var wire 1 ^ result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 b i $end
+$scope module m0 $end
+$var wire 1 c channel_out $end
+$var wire 1 d in0 $end
+$var wire 1 e in1 $end
+$var wire 1 % select $end
+$var wire 1 f og0_result $end
+$var wire 1 g ng0_result $end
+$var wire 1 h ag1_result $end
+$var wire 1 i ag0_result $end
+$scope module ag0 $end
+$var wire 1 d a $end
+$var wire 1 i result $end
+$var wire 1 g b $end
+$upscope $end
+$scope module ag1 $end
+$var wire 1 e a $end
+$var wire 1 % b $end
+$var wire 1 h result $end
+$upscope $end
+$scope module ng0 $end
+$var wire 1 % a $end
+$var wire 1 g result $end
+$upscope $end
+$scope module og0 $end
+$var wire 1 i a $end
+$var wire 1 h b $end
+$var wire 1 f result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 j i $end
+$scope module m0 $end
+$var wire 1 k channel_out $end
+$var wire 1 l in0 $end
+$var wire 1 m in1 $end
+$var wire 1 % select $end
+$var wire 1 n og0_result $end
+$var wire 1 o ng0_result $end
+$var wire 1 p ag1_result $end
+$var wire 1 q ag0_result $end
+$scope module ag0 $end
+$var wire 1 l a $end
+$var wire 1 q result $end
+$var wire 1 o b $end
+$upscope $end
+$scope module ag1 $end
+$var wire 1 m a $end
+$var wire 1 % b $end
+$var wire 1 p result $end
+$upscope $end
+$scope module ng0 $end
+$var wire 1 % a $end
+$var wire 1 o result $end
+$upscope $end
+$scope module og0 $end
+$var wire 1 q a $end
+$var wire 1 p b $end
+$var wire 1 n result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 r i $end
+$scope module m0 $end
+$var wire 1 s channel_out $end
+$var wire 1 t in0 $end
+$var wire 1 u in1 $end
+$var wire 1 % select $end
+$var wire 1 v og0_result $end
+$var wire 1 w ng0_result $end
+$var wire 1 x ag1_result $end
+$var wire 1 y ag0_result $end
+$scope module ag0 $end
+$var wire 1 t a $end
+$var wire 1 y result $end
+$var wire 1 w b $end
+$upscope $end
+$scope module ag1 $end
+$var wire 1 u a $end
+$var wire 1 % b $end
+$var wire 1 x result $end
+$upscope $end
+$scope module ng0 $end
+$var wire 1 % a $end
+$var wire 1 w result $end
+$upscope $end
+$scope module og0 $end
+$var wire 1 y a $end
+$var wire 1 x b $end
+$var wire 1 v result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope task verify $end
+$var reg 10 z channel_out_task [9:0] $end
+$var reg 10 { in0_task [9:0] $end
+$var reg 10 | in1_task [9:0] $end
+$var reg 1 } select_task $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1001 r
+b1000 j
+b111 b
+b110 Z
+b101 R
+b100 J
+b11 B
+b10 :
+b1 2
+b0 *
+b1010 )
+b1010 "
+$end
+#0
+$dumpvars
+0}
+b110001100 |
+b1001110011 {
+b1001110011 z
+1y
+0x
+1w
+1v
+0u
+1t
+1s
+0q
+0p
+1o
+0n
+1m
+0l
+0k
+0i
+0h
+1g
+0f
+1e
+0d
+0c
+1a
+0`
+1_
+1^
+0]
+1\
+1[
+1Y
+0X
+1W
+1V
+0U
+1T
+1S
+1Q
+0P
+1O
+1N
+0M
+1L
+1K
+0I
+0H
+1G
+0F
+1E
+0D
+0C
+0A
+0@
+1?
+0>
+1=
+0<
+0;
+19
+08
+17
+16
+05
+14
+13
+11
+00
+1/
+1.
+0-
+1,
+1+
+b1001110011 (
+b110001100 '
+b1001110011 &
+0%
+b110001100 $
+b1001110011 #
+b1001110011 !
+$end
+#1
+03
+06
+0K
+0N
+0[
+0^
+b100001 !
+b100001 (
+0s
+0v
+01
+09
+0Q
+0Y
+0a
+0y
+10
+0/
+07
+0?
+0G
+0O
+1X
+0W
+0_
+0g
+0o
+0w
+1-
+0=
+0E
+1U
+0e
+0m
+1<
+1D
+1d
+1l
+1%
+b100001 $
+b100001 '
+b1111111111 #
+b1111111111 &
+b100001 z
+1}
+b100001 |
+b1111111111 {
+#2

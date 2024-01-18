@@ -1,0 +1,127 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000027c53745070 .scope module, "multiplexer_2to1_tb" "multiplexer_2to1_tb" 2 6;
+ .timescale -12 -12;
+v0000027c537441d0_0 .net "channel_out_tb", 0 0, L_0000027c53794b30;  1 drivers
+v0000027c537435f0_0 .var "in0_tb", 0 0;
+v0000027c53743690_0 .var "in1_tb", 0 0;
+v0000027c53743550_0 .var "select_tb", 0 0;
+S_0000027c53745200 .scope module, "m0" "multiplexer_2to1" 2 13, 3 1 0, S_0000027c53745070;
+ .timescale -12 -12;
+    .port_info 0 /INPUT 1 "in0";
+    .port_info 1 /INPUT 1 "in1";
+    .port_info 2 /INPUT 1 "select";
+    .port_info 3 /OUTPUT 1 "channel_out";
+L_0000027c53794b30 .functor BUFZ 1, L_0000027c53794cf0, C4<0>, C4<0>, C4<0>;
+v0000027c537125d0_0 .net "ag0_result", 0 0, L_0000027c53712bb0;  1 drivers
+v0000027c53712670_0 .net "ag1_result", 0 0, L_0000027c53712ff0;  1 drivers
+v0000027c53744130_0 .net "channel_out", 0 0, L_0000027c53794b30;  alias, 1 drivers
+v0000027c53743f50_0 .net "in0", 0 0, v0000027c537435f0_0;  1 drivers
+v0000027c53744090_0 .net "in1", 0 0, v0000027c53743690_0;  1 drivers
+v0000027c53744270_0 .net "ng0_result", 0 0, L_0000027c538de230;  1 drivers
+v0000027c53743370_0 .net "og0_result", 0 0, L_0000027c53794cf0;  1 drivers
+v0000027c53743ff0_0 .net "select", 0 0, v0000027c53743550_0;  1 drivers
+S_0000027c53745cf0 .scope module, "ag0" "and_gate" 3 12, 4 1 0, S_0000027c53745200;
+ .timescale -12 -12;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "result";
+L_0000027c53712bb0 .functor AND 1, v0000027c537435f0_0, L_0000027c538de230, C4<1>, C4<1>;
+v0000027c53712dd0_0 .net "a", 0 0, v0000027c537435f0_0;  alias, 1 drivers
+v0000027c538dbd60_0 .net "b", 0 0, L_0000027c538de230;  alias, 1 drivers
+v0000027c53737220_0 .net "result", 0 0, L_0000027c53712bb0;  alias, 1 drivers
+S_0000027c53745e80 .scope module, "ag1" "and_gate" 3 13, 4 1 0, S_0000027c53745200;
+ .timescale -12 -12;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "result";
+L_0000027c53712ff0 .functor AND 1, v0000027c53743690_0, v0000027c53743550_0, C4<1>, C4<1>;
+v0000027c537372c0_0 .net "a", 0 0, v0000027c53743690_0;  alias, 1 drivers
+v0000027c53746010_0 .net "b", 0 0, v0000027c53743550_0;  alias, 1 drivers
+v0000027c537460b0_0 .net "result", 0 0, L_0000027c53712ff0;  alias, 1 drivers
+S_0000027c53746560 .scope module, "ng0" "not_gate" 3 9, 5 1 0, S_0000027c53745200;
+ .timescale -12 -12;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /OUTPUT 1 "result";
+L_0000027c538de230 .functor NOT 1, v0000027c53743550_0, C4<0>, C4<0>, C4<0>;
+v0000027c53745390_0 .net "a", 0 0, v0000027c53743550_0;  alias, 1 drivers
+v0000027c53745430_0 .net "result", 0 0, L_0000027c538de230;  alias, 1 drivers
+S_0000027c537466f0 .scope module, "og0" "or_gate" 3 16, 6 1 0, S_0000027c53745200;
+ .timescale -12 -12;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "result";
+L_0000027c53794cf0 .functor OR 1, L_0000027c53712bb0, L_0000027c53712ff0, C4<0>, C4<0>;
+v0000027c53746880_0 .net "a", 0 0, L_0000027c53712bb0;  alias, 1 drivers
+v0000027c53746920_0 .net "b", 0 0, L_0000027c53712ff0;  alias, 1 drivers
+v0000027c53712530_0 .net "result", 0 0, L_0000027c53794cf0;  alias, 1 drivers
+S_0000027c53712710 .scope task, "verify" "verify" 2 20, 2 20 0, S_0000027c53745070;
+ .timescale -12 -12;
+v0000027c53743a50_0 .var "channel_out_task", 0 0;
+v0000027c537434b0_0 .var "in0_task", 0 0;
+v0000027c53743410_0 .var "in1_task", 0 0;
+v0000027c53743eb0_0 .var "select_task", 0 0;
+TD_multiplexer_2to1_tb.verify ;
+    %load/vec4 v0000027c537434b0_0;
+    %store/vec4 v0000027c537435f0_0, 0, 1;
+    %load/vec4 v0000027c53743410_0;
+    %store/vec4 v0000027c53743690_0, 0, 1;
+    %load/vec4 v0000027c53743eb0_0;
+    %store/vec4 v0000027c53743550_0, 0, 1;
+    %delay 1, 0;
+    %load/vec4 v0000027c53743a50_0;
+    %load/vec4 v0000027c537441d0_0;
+    %cmp/e;
+    %jmp/0xz  T_0.0, 4;
+    %vpi_call 2 32 "$display", "CORRECTO: in0: %b, in1: %b, select: %b, channel_out esperado: %b, channel_out obtenido: %b", v0000027c537434b0_0, v0000027c53743410_0, v0000027c53743eb0_0, v0000027c53743a50_0, v0000027c537441d0_0 {0 0 0};
+    %jmp T_0.1;
+T_0.0 ;
+    %vpi_call 2 34 "$display", "CORRECTO: in0: %b, in1: %b, select: %b, channel_out esperado: %b, channel_out obtenido: %b", v0000027c537434b0_0, v0000027c53743410_0, v0000027c53743eb0_0, v0000027c53743a50_0, v0000027c537441d0_0 {0 0 0};
+T_0.1 ;
+    %end;
+    .scope S_0000027c53745070;
+T_1 ;
+    %vpi_call 2 41 "$dumpfile", "multiplexer_2to1_tb.vcd" {0 0 0};
+    %vpi_call 2 42 "$dumpvars", 32'sb00000000000000000000000000000000, S_0000027c53745070 {0 0 0};
+    %end;
+    .thread T_1;
+    .scope S_0000027c53745070;
+T_2 ;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000027c537434b0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000027c53743410_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000027c53743eb0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000027c53743a50_0, 0, 1;
+    %fork TD_multiplexer_2to1_tb.verify, S_0000027c53712710;
+    %join;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000027c537434b0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000027c53743410_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000027c53743eb0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000027c53743a50_0, 0, 1;
+    %fork TD_multiplexer_2to1_tb.verify, S_0000027c53712710;
+    %join;
+    %end;
+    .thread T_2;
+# The file index is used to find the file name in the following table.
+:file_names 7;
+    "N/A";
+    "<interactive>";
+    "multiplexer_2to1_tb.v";
+    "./../../src/verilog/multiplexer_2to1.v";
+    "./../../src/verilog/and_gate.v";
+    "./../../src/verilog/not_gate.v";
+    "./../../src/verilog/or_gate.v";

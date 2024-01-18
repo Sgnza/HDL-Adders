@@ -1,0 +1,78 @@
+$date
+	Thu Jan 18 16:24:58 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module multiplexer_2to1_tb $end
+$var wire 1 ! channel_out_tb $end
+$var reg 1 " in0_tb $end
+$var reg 1 # in1_tb $end
+$var reg 1 $ select_tb $end
+$scope module m0 $end
+$var wire 1 ! channel_out $end
+$var wire 1 " in0 $end
+$var wire 1 # in1 $end
+$var wire 1 $ select $end
+$var wire 1 % og0_result $end
+$var wire 1 & ng0_result $end
+$var wire 1 ' ag1_result $end
+$var wire 1 ( ag0_result $end
+$scope module ag0 $end
+$var wire 1 " a $end
+$var wire 1 ( result $end
+$var wire 1 & b $end
+$upscope $end
+$scope module ag1 $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 ' result $end
+$upscope $end
+$scope module ng0 $end
+$var wire 1 $ a $end
+$var wire 1 & result $end
+$upscope $end
+$scope module og0 $end
+$var wire 1 ( a $end
+$var wire 1 ' b $end
+$var wire 1 % result $end
+$upscope $end
+$upscope $end
+$scope task verify $end
+$var reg 1 ) channel_out_task $end
+$var reg 1 * in0_task $end
+$var reg 1 + in1_task $end
+$var reg 1 , select_task $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0,
+0+
+1*
+1)
+1(
+0'
+1&
+1%
+0$
+0#
+1"
+1!
+$end
+#1
+0!
+0%
+0(
+0&
+1$
+0)
+1,
+#2

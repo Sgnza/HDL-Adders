@@ -1,0 +1,58 @@
+$date
+	Thu Jan 18 23:46:48 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module index_tb $end
+$var wire 4 ! out3_tb [3:0] $end
+$var wire 4 " out2_tb [3:0] $end
+$var wire 4 # out1_tb [3:0] $end
+$var wire 4 $ out0_tb [3:0] $end
+$var reg 16 % in_tb [15:0] $end
+$scope module d0 $end
+$var wire 16 & in [15:0] $end
+$var wire 4 ' out3 [3:0] $end
+$var wire 4 ( out2 [3:0] $end
+$var wire 4 ) out1 [3:0] $end
+$var wire 4 * out0 [3:0] $end
+$upscope $end
+$scope task verify $end
+$var reg 16 + in_task [15:0] $end
+$var reg 4 , out0_task [3:0] $end
+$var reg 4 - out1_task [3:0] $end
+$var reg 4 . out2_task [3:0] $end
+$var reg 4 / out3_task [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1100 /
+b11 .
+b1111 -
+b1111 ,
+b1100001111111111 +
+b1111 *
+b1111 )
+b11 (
+b1100 '
+b1100001111111111 &
+b1100001111111111 %
+b1111 $
+b1111 #
+b11 "
+b1100 !
+$end
+#1
+b0 /
+b0 .
+b0 -
+b0 ,
+#102

@@ -1,6 +1,6 @@
 module carry_select_adder_rca_N_block
 #(
-    parameter N = 4
+    parameter N = 2
 )
 (
     input wire select,
@@ -30,18 +30,19 @@ ripple_carry_adder_N #(.N(N)) rca41(
 );
 // --- multiplexer_NtoN2
 
-wire mN0_cout;
-wire [N-1:0] mN0_sum;
+wire [N:0] mN0_in0, mN0_in1;
+assign mN0_in0 = {rcaN0_cout, rcaN0_sum};
+assign mN0_in1 = {rcaN1_cout, rcaN1_sum};
+wire [N:0] mN0_sum;
 
 multiplexer_N_2to1 #(.N(N)) mN0(
     .select(select),
-    .in0({rcaN0_cout, rca40_sum}),
-    .in1({rcaN1_cout, rca41_sum}),
-    .channel_out(mN0_sum),
-    .cout(mN0_cout)
+    .in0(mN0_in0),
+    .in1(mN0_in1),
+    .channel_out(mN0_sum)
 );
 
-assign sum = mN0_sum;
-assign cout = mN0_cout;
+assign sum = mN0_sum[N-1:0];
+assign cout = mN0_sum[N];
 
 endmodule

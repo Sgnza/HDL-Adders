@@ -1,4 +1,4 @@
-`include "../../src/verilog/ripple_carry_adder_4.v"
+`include "../../../src/verilog/4 bits/ripple_carry_adder_4.v"
 
 module ripple_carry_adder_8(
     input wire [7:0] a,
